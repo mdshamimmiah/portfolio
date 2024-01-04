@@ -28,14 +28,14 @@ const About = () => {
       <div className=' flex justify-around gap-16'>
 
         <div className='border border-solid border-white p-4 mt-5'>
-          <h1 className='ml-6 mt-4 font-serif text-2xl mb-8 text-white text-center'><i>My proffessional info</i></h1>
-          <h1 className='text-justify mr-4 text-orange-600 w-[400px]'>  I am a web developer but font end focus. i am using html, css, tailwind, js, mongodb, firebase,  node js, crud, react for my project. but i good know react and tailwind.</h1>
+          <h1 className='ml-0 lg:ml-6 mt-14 lg:mt-4 font-serif text-[9px] lg:text-2xl mb-8 text-white text-center'><i>My proffessional info</i></h1>
+          <h1 className='text-justify mr-4 text-orange-600 w-[100px] lg:w-[400px]'>  I am a web developer but font end focus. i am using html, css, tailwind, js, mongodb, firebase,  node js, crud, react for my project. but i good know react and tailwind.</h1>
 
         </div>
 
         <div className='border border-solid border-white p-4 mt-5'>
-          <h1 className='ml-20 mt-4 font-serif text-2xl mb-4 text-white '><i>My Vision</i></h1>
-          <h1 className='text-justify mr-4  text-orange-600  w-[400px]'>In the vast landscape of web development, my vision is to master the powerful tools Next.js and Redux, unlocking a new realm of possibilities in building robust and efficient web applications.</h1>
+          <h1 className='ml-7 lg:ml-20 mt-14 lg:mt-4 font-serif text-[9px] lg:text-2xl mb-4 text-white '><i>My Vision</i></h1>
+          <h1 className='text-justify mr-4  text-orange-600 w-[100px] lg:w-[400px]'>In the vast landscape of web development, my vision is to master the powerful tools Next.js and Redux, unlocking a new realm of possibilities in building robust and efficient web applications.</h1>
         </div>
       </div>
       <div>

@@ -3,7 +3,7 @@ import { Typewriter, Cursor, useTypewriter } from 'react-simple-typewriter'
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
 const Banner = () => {
 const [ typeEffect ] = useTypewriter({
-    words: ['Developer', 'MernStack Developer', 'MernStack Developer but frontEnd Focused'],
+    words: ['Developer', 'MernStack Developer', 'MernStack Developer but frontEnd Focusedn'],
     loop:{},
     typeSpeed:100,
     deleteSpeed:40
@@ -12,9 +12,9 @@ const [ typeEffect ] = useTypewriter({
     return (
         <div data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="1500"className='flex justify-evenly mt-5 mb-10 '>
+        data-aos-duration="1500"className=' grid grid-cols-1 lg:grid-cols-2 gap-2 justify-evenly mt-5 mb-10 '>
             <div className='my-auto'>
-                <h1 className="text-5xl text-white font-bold my-auto">MD SHAMIM MIAH</h1>
+                <h1 className="text-2xl lg:text-5xl text-white font-bold my-auto">MD SHAMIM MIAH</h1>
                 <h1 className="text-orange-600 text-2xl mt-5 font-semibold ">I Am a <span>{typeEffect}</span></h1>
                 <div className="flex gap-4 mt-4">
                     <a className="  text-white text-5xl " href="https://web.facebook.com/samim.reza.948/"><FaFacebook /></a>

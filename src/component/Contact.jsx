@@ -30,7 +30,7 @@ const Contact = () => {
       <h1 className="text-5xl font-bold text-white">Contact now!</h1>
      
     </div>
-  <div className="flex justify-evenly gap-72">
+  <div className="grid grid-cols-1 lg:grid-cols-2 justify-evenly gap-72">
 
 <div>
   <div className="bg-black  shadow-[#3349FF]	shadow-2xl p-6 px-36 ">
