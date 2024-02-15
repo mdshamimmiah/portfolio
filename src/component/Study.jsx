@@ -10,13 +10,13 @@ const Study = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2 mx-auto'>
                <div>
                <div>
-                    <img className='w-[350px] lg:w-[400px] h-[400px] mx-auto ml-10 bg-orange-600 my-auto mt-20' src={svg2} alt="" />
+                    <img className='w-[335px] lg:w-[400px] h-[400px] mx-auto ml-10 bg-orange-600 my-auto mt-20' src={svg2} alt="" />
                 </div>
                </div>
                 
-                  <div className='w-[] lg:full mx-auto gap-3'>
-                  <div className="bg-black  shadow-[#3349FF]	shadow-2xl p-6 px-36 ">
-                        <h1 className="text-white text-sm lg:w-full lg:text-xl ">Secondary School Certificate(2010)</h1>
+                  <div className='w-full gap-3'>
+                  <div className="bg-black  shadow-[#3349FF]	shadow-2xl p-6 px-36 w-full">
+                        <h1 className="text-white text-[15px]  lg:w-full lg:text-xl">Secondary School Certificate(2010)</h1>
                         <h1 className="text-white text-sm lg:w-full lg:text-lg">Sahabatpur High School</h1>
                         <h1 className="text-white lg:w-full  shadow-[#3349FF]	shadow-2xl">Department : Commerce</h1>
                     </div>
